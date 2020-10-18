@@ -1,0 +1,340 @@
+* {
+list-style:none;
+text-decoration:none;
+font-family:'Noto Sans KR';
+color:#EEA703;
+margin:0;
+padding:0;
+}
+
+.wrap {
+background-color:#e0ddd7;
+}
+
+header {
+width:100%;
+height:490px;
+background-image:url(../../IMG/Jejutt/jocean3.jpg);
+background-size:100vw 525px;
+background-position:top center;
+background-repeat:no-repeat;
+}
+
+.logo {
+width:300px;
+text-align:center;
+padding-top:75px;
+padding-bottom:40px;
+margin:0 auto;
+}
+
+.search {
+float:left;
+}
+
+.search input {
+background-color:transparent;
+border:1.5px solid #EEA703;
+border-radius:10px;
+position:relative;
+top:-2px;
+width:165px;
+height:17px;
+}
+
+.search img {
+margin:0 10px;
+}
+
+.mainmenu {
+position:relative;
+width:960px;
+height:50px;
+margin:0 auto;
+}
+
+.mainmenu ul {
+float:left;
+height:50px;
+width:100%;
+text-align:center;
+}
+
+.mainmenu ul li {
+float:left;
+padding:0 19px;
+}
+
+.signIn {
+width:250px;
+height:220px;
+background-color:#FFF;
+border-radius:10px;
+font-size:12px;
+color:#1b1b1b;
+position:absolute;
+right:20px;
+top:30px;
+}
+
+.signIn input {
+border:none;
+border-bottom:1px solid gray;
+}
+
+.signIn input:first-child {
+margin-top:20px;
+margin-bottom:5px;
+}
+
+.signIn input:last-child {
+margin-bottom:20px;
+}
+
+.signIn a {
+color:#1b1b1b;
+}
+
+.signIn h2 {
+color:#1b1b1b;
+margin-top:20px;
+}
+
+.SB {
+width:190px;
+background-color:#EEA703;
+margin-bottom:10px;
+}
+
+.membership {
+font-weight:700;
+}
+
+article {
+width:920px;
+height:890px;
+margin:0 auto;
+}
+
+.res {
+width:920px;
+background-color:#ffffff81;
+height:185px;
+color:#3a2020;
+border-radius:4px;
+margin:55px auto 0;
+}
+
+.whitesq {
+width:880px;
+color:#1b1b1b;
+margin:0 auto;
+}
+
+.res input {
+color:#1b1b1b;
+width:240px;
+background-color:transparent;
+border:none;
+border-bottom:1px solid #818181;
+margin-top:30px;
+}
+
+.res select {
+color:#1b1b1b;
+background-color:transparent;
+border:none;
+border-bottom:1px solid #7a7a7a;
+margin:2.8px;
+}
+
+.res option {
+color:#1b1b1b;
+background-color:transparent;
+}
+
+.res h4,.whitesq p {
+color:#3f3f3f;
+font-weight:600;
+text-align:center;
+padding-top:20px;
+}
+
+button {
+color:#F5F5F5;
+width:870px;
+height:25px;
+text-align:center;
+background-color:#7BB1B3;
+border:none;
+border-radius:5px;
+display:block;
+margin:30px auto 0;
+padding:3px;
+}
+
+button:hover {
+cursor:pointer;
+}
+
+.left {
+float:left;
+width:290px;
+height:900px;
+}
+
+.pics {
+position:relative;
+}
+
+.cont h2 {
+font-weight:200;
+color:#FFF;
+margin-bottom:10px;
+}
+
+.cont p {
+font-size:13px;
+color:#FFF;
+margin-bottom:20px;
+}
+
+.cont {
+position:relative;
+z-index:999;
+margin:60px 0 0 20px;
+}
+
+.one {
+width:290px;
+height:420px;
+float:left;
+background-image:url(../../IMG/Jejutt/jeju/original.jpg);
+background-repeat:no-repeat;
+background-size:cover;
+background-position:top center;
+position:relative;
+margin:10px 10px 10px 0;
+}
+
+.two {
+width:530px;
+height:440px;
+float:left;
+background-image:url(../../IMG/Jejutt/jeju/drives.jpg);
+background-repeat:no-repeat;
+background-size:cover;
+margin:0 10px 0 0;
+}
+
+.hov {
+opacity:2;
+background-color:rgba(48,36,21,0.534);
+width:100%;
+height:100%;
+position:absolute;
+left:0;
+top:0;
+z-index:1;
+}
+
+.pics:hover .hov {
+opacity:0;
+}
+
+.middle {
+width:230px;
+height:900px;
+float:left;
+margin-left:10px;
+}
+
+.three {
+height:420px;
+width:230px;
+float:left;
+background-image:url(../../IMG/Jejutt/jeju/5a3xbwwlupx11.png);
+background-repeat:no-repeat;
+background-size:cover;
+background-position:top left;
+position:relative;
+margin:10px 10px 10px 0;
+}
+
+.four {
+height:381px;
+width:230px;
+float:left;
+background-image:url(../../IMG/Jejutt/golfff.png);
+background-repeat:no-repeat;
+position:relative;
+margin:0 10px 0 0;
+}
+
+.right {
+width:375px;
+height:900px;
+float:left;
+margin-left:10px;
+}
+
+.five {
+height:365px;
+width:378px;
+float:left;
+background-image:url(../../IMG/Jejutt/indoor.png);
+background-repeat:no-repeat;
+position:relative;
+margin:10px 10px 0 0;
+}
+
+.six {
+height:495px;
+width:378px;
+float:left;
+background-image:url(../../IMG/Jejutt/jeju/food1.jpg);
+background-size:100%;
+background-position:top;
+background-repeat:no-repeat;
+position:relative;
+margin:10px 10px 0 0;
+}
+
+footer {
+background-image:url(../../IMG/Jejutt/ssss.jpg);
+background-position:bottom center;
+background-size:100% 800px;
+margin:0 auto;
+}
+
+footer p {
+color:#FFF;
+font-size:12px;
+}
+
+.footer {
+width:920px;
+padding-top:20px;
+margin:0 auto;
+}
+
+footer .sns {
+float:right;
+}
+
+footer .sns img {
+padding-left:20px;
+}
+
+.footer .text {
+padding-top:30px;
+}
+
+.footer span {
+display:block;
+text-align:right;
+padding-top:20px;
+color:#FFF;
+font-size:12px;
+padding-bottom:10px;
+}

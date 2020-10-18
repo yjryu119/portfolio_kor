@@ -1,0 +1,477 @@
+
+*{
+margin: 0;
+padding: 0;
+list-style: none;
+text-decoration: none;
+color: black;;
+font-family: 'Noto Sans KR', sans-serif;
+}
+
+.sticky{
+position: fixed;
+top: 0;
+z-index: 997;
+background-color: transparent;
+width: 20%;
+right: 0;
+}
+
+.navBar{
+width: 20%;
+float: right;
+}
+
+.mainMenu{
+width: 130px;
+height: 100vh;
+text-align: center;
+margin: 0 auto;
+margin-right: 20px;
+float: right;
+}
+
+.mainMenu li{
+margin-right: 10px;
+margin-top: 100px;
+height: 30px;
+}
+
+.mainMenu a{
+color: black;
+}
+
+.mainMenu li a{
+display: block;
+width: 30px;
+float: right;
+overflow: hidden;
+}
+
+.sectionHome{
+height: 100vh;
+width: 100%;
+background-image: url(../../IMG/Portfolio/main.jpg);
+background-position: left;
+background-repeat: no-repeat;
+background-size: cover;
+background-size: 100% 100%;
+position: relative;
+margin: 0 auto;
+
+}
+.intro{
+position: absolute;
+top: 39%;
+left: 10%;
+width: 900px;
+text-align: left;
+opacity: 0;
+}
+
+.introshow{
+opacity: 1;
+}
+
+.intro p{
+color: white;
+font-size: 45px;
+margin-bottom: 0px;
+font-weight: 200;
+}
+
+.intro h2{
+color: white;
+font-size: 50px;
+font-weight: 400;
+letter-spacing: .4rem;
+}
+
+.sectionwrapper{
+background-position: center;
+background-size: 102%;
+background-repeat: no-repeat;
+height: 4400px;
+}
+
+.sectionPortfolio{
+width: 100%;
+background-color: #e4e4e4;
+margin: 0 auto;
+background-position: center;
+background-size: 100%;
+background-repeat: no-repeat;
+height: 1700px;
+}
+
+.sectionPortfolio h2{
+font-weight: 250;
+font-size: 28px;
+text-align: center;
+padding-bottom: 190px;
+color: black;
+}
+
+.lists{
+width: 80%;
+margin: 0 10%;
+float: left;
+margin-bottom: 40px;
+}
+
+.thumbnail{
+width: 50%;
+margin: 0 auto;
+float: left;
+text-align: center;
+transition: 1s;
+}
+
+.thumbnail:hover{
+transition: 1s;
+transform: scale(1.02);
+border-radius: 20px;
+}
+
+.thumbnail_right:hover{
+transition: 1s;
+transform: scale(1.02);
+border-radius: 20px;
+}
+
+.thumbnail_right{
+width: 50%;
+margin: 0 auto;
+margin-bottom: 30px;
+float: right;
+text-align: center;
+transition: 1s;
+}
+
+.description{
+width: 50%;
+margin: 0 auto;
+margin-bottom: 30px;
+float: right;
+text-align: justify;
+}
+
+.description_left{
+width: 50%;
+margin: 0 auto;
+float: left;
+text-align: justify;
+position: relative;
+}
+
+.description p{
+width: 470px;
+height: 170px;
+font-size: 13px;
+color: #202020 ;
+margin: 0 auto;
+margin-top: 80px;
+}
+
+.description_left p{
+width: 470px;
+height: 170px;
+font-size: 13px;
+color: #202020 ;
+margin: 0 auto;
+margin-top: 80px;
+}
+
+.learnmore{
+width: 480px;
+margin: 20px auto;
+}
+
+.learnmore span{
+width: 70px;
+text-align: center;
+border-radius: 3px;
+padding: 5px;
+font-size: 13px;
+color: dimgrey;
+border: 1px solid dimgray;
+}
+
+.clear{
+clear: both;
+}
+
+.info{
+background-position: center;
+background-size: 102%;
+background-repeat: no-repeat;
+height: 2400px;
+background-color: #e4e4e4;
+padding-top: 100px;
+
+}
+.aboutMe{
+height: 100vh;
+width: 80vw;
+margin: 0 auto;
+position: relative;
+
+}
+
+.atitle{
+position: absolute;
+top: 10%;
+left: calc(50% - 200px );
+width: 400px;
+font-weight: 250;
+font-size: 28px;
+text-align: center;
+color: #202020 ;
+}
+
+.des{
+height: 100vh;
+position: relative;
+
+}
+.picture{
+width: 40%;
+float: left;
+height: 100vh;
+}
+
+.aboutMe img{
+width: 40%;
+position: absolute;
+top: calc( 55% - 245px);
+}
+
+.cont{
+width: 55%;
+height: 200px;
+position: absolute;
+left: 40%;
+top: calc( 55% - 100px);
+font-size: 14px;
+margin-right: 5%;
+color: #202020 ;
+}
+
+.resume{
+text-align: center;
+font-size: 13px;
+position: absolute;
+top: calc( 70% );
+left: 40%;
+transition: 1s;
+}
+
+.resume span{
+font-size: 12px;
+color: whitesmoke;
+color: #202020 ;
+}
+
+.resume:hover {
+background-color: black;
+transition: 1s;
+}
+
+.resume:hover span{
+color: whitesmoke;
+transition: 1s;
+}
+
+.resume a{
+display: inline-block;
+width: 70px;
+padding: 7px;
+border: 1px solid dimgray;
+border-radius: 1px;
+}
+
+.sectionskills{
+height: 100vh;
+width: 60%;
+margin: 0 auto;
+position: relative;
+margin-bottom: 100px;
+}
+
+.skills{
+width: 236px;
+margin-left: 4.5%;
+margin-top: 20%;
+text-align: center;
+float: left;
+}
+
+.skills h2{
+font-weight: 200;
+}
+
+.skillscont{
+width: 100%;
+height: 500px;
+margin: 0 auto;
+top: calc( 60% - 250px);
+position: absolute;
+left: calc( 50% - 50%);
+float: left;
+position: absolute;
+}
+
+.skillscont p{
+float: left;
+width: 100px;
+padding-left: 2%;
+}
+
+.meter{
+height: 500px;
+float: left;
+}
+
+.meter span{
+height: 300px;
+float: left;
+}
+
+#container, #container2, #container3, #container4, #container5, #container6, #container7, #container8  {
+width: 100%;
+height: 100px;
+position: absolute;
+float: left;
+}
+
+.progressbar-text{
+display: none;
+}
+
+svg path:first-child{
+display: none;
+}
+
+.meter { 
+height: 20px;  
+position: relative;
+border-radius: 25px;
+margin-bottom: 15px;
+width: 77%;
+display: inline-block;
+}
+
+.meter > span {
+display: block;
+height: 10px;
+background-color: #DAD3CD;
+position: absolute;
+top: calc( 50% - 5px);
+overflow: hidden;
+}
+
+@keyframes expandWidth {
+0% { width: 0; }
+100% { width: auto; }
+}
+
+.counterup{
+float: right;
+width: 15%;
+}
+
+p.typing-txt{display: none;}
+
+.typing {  
+display: inline; 
+animation-name: cursor; 
+animation-duration: 0.3s; 
+animation-iteration-count: infinite; 
+} 
+@keyframes cursor{ 
+0%{border-right: 1px solid #fff} 
+50%{border-right: 1px solid #000} 
+100%{border-right: 1px solid #fff} 
+}
+
+.bold{
+font-weight: bold ;
+}
+
+.counter{
+float: left;
+}
+
+.sk{
+float: left;
+width: 100%;
+margin-bottom: 3%;
+}
+
+.sk span{
+float: left;
+}
+
+.percentage{
+width: 40px;
+height: 30px;
+float: right;
+padding-right: 2%;
+}
+
+.sectioncontact{
+background-image: url(../../IMG/Portfolio/contract.jpg);
+background-position: bottom ;
+background-repeat: no-repeat;
+background-size: 100% 150%;
+height: 1200px;
+width: 100%;
+margin: 0 auto;
+}
+
+.sectioncontact h2{
+text-align: center;
+padding-top: 400px;
+padding-bottom: 60px;
+margin-bottom: 120px;
+}
+
+.sectioncontact form{
+width: 340px;
+text-align: center;
+margin: 0 auto;
+}
+
+.sectioncontact input{
+background-color: transparent;
+border: none;
+border-bottom: 1px solid black;
+float: left;
+width: 300px;
+margin: 15px 20px 10px 20px ;
+}
+
+.sectioncontact textarea{
+width: 300px;
+height: 100px;
+resize: none;
+background-color: transparent;
+float: left;
+margin: 20px;
+}
+
+.mycontacts{
+text-align: center;
+width: 300px;
+font-size: 11px;
+margin: 0 auto;
+margin-top: 20px;
+}
+
+footer{
+width:80%;
+font-size: 12px;
+margin: 0 auto;
+text-align: center;
+margin-top: 20px;
+}
