@@ -5,10 +5,7 @@ $(function(){
     
     $(".nx").click(function(){
         var num=$(this).attr("alt");
-
         abc(num);
-
-
     });
 
     $(".pre").click(function(){
@@ -16,10 +13,8 @@ $(function(){
         bcd(num2);
     });
 
-
     function abc(num){
         var flim=$(".pics"+num+" p");
-
         flim.animate({
             marginLeft: "-=310px"
         }, 400, "linear", function () {
@@ -44,7 +39,7 @@ $(function(){
     function bcd(num2){
         $("img:last", ".pics"+num2+" p").prependTo(".pics"+num2+" p");
         $(".pics"+num2+" p").css("margin-left", "-310px");
-
+        
         var flim=$(".pics"+num2+" p");
         console.log(flim);
 
