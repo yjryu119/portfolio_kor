@@ -1,0 +1,738 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.wrap{
+    width: 90%;
+    margin: 0 auto;
+}
+.clear{
+    clear: both;
+}
+header{
+    width: 100%;
+    margin: 0 auto;
+}
+.ham{
+    display: none;
+    width: 40px;
+    text-align: center;
+    position: absolute;
+    top: 30px;
+    left: 15px;
+}
+.ham img{
+    width: 80%;
+}
+.logo{
+    width: 200px;
+    margin: 20px auto;
+    text-align: center;
+}
+.logo img{
+    margin: 0 auto;
+    text-align: center;
+}
+nav{
+    width: 100%;
+}
+.close{
+    display: none;
+}
+nav > ul{
+    width: 80%;
+    height: 40px;
+    margin: 0 auto;
+}
+nav ul li{
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+nav>ul>li>a{
+    font-weight: 900;
+    color: rgb(34, 34, 34);
+    font-size: 14px;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+    font-family: 'Libre Baskerville' , sans-serif;
+}
+nav>ul>li>a:hover{
+    border-bottom: 1px solid #D67B69;
+}
+.sublist{
+    width: 16%;
+    opacity: 0;
+    position: absolute;
+    transition: all 1s ;
+}
+.sublist_a{
+    width: 16%;
+    opacity: 0;
+    position: absolute;
+    transition: all 1s ;
+}
+nav li:hover .sublist{
+    transition: all 1s ;
+    opacity: 1;
+}
+.sublist li{
+    width: 100%;
+    height: 40px;
+    display: block;
+    float: left;
+}
+.sublist a{
+    font-size: 14px;
+    font-family: 'Libre Baskerville' , sans-serif;
+    font-weight: 700;
+}
+.sublist a:hover{
+    color: #D67B69;
+}
+nav li:hover .sublist_a{
+    transition: all 1s ;
+    opacity: 1;
+}
+.sublist_a li{
+    width: 100%;
+    height: 40px;
+    display: block;
+    float: left;
+}
+.sublist_a a{
+    font-size: 14px;
+    font-family: 'Libre Baskerville' , sans-serif;
+    font-weight: 700;
+}
+.sublist_a a:hover{
+    color: #D67B69;
+}
+.list{
+    border: 1px solid gainsboro;
+    margin-bottom: 10px;
+    height: auto;
+    width: 46.5%;
+    float: left;
+    margin: 1.5%;
+    text-align: center;
+    position: relative;
+}
+.one{
+    margin-bottom: 10px;
+    height: auto;
+}
+.na{
+    margin: 0 auto;
+    width: 200px;
+    height: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.nb{
+    margin: 0 auto;
+    width: 200px;
+    height: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-bottom: 2.5px solid rgb(34, 34, 34);
+}
+.na p{
+    font-family: 'Libre Baskerville' , sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(34, 34, 34);
+    text-align: center;
+}
+.nb p{
+    font-family: 'Libre Baskerville' , sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(34, 34, 34);
+    text-align: center;
+}
+.cont{
+    padding: 10px 10px;
+}
+.cont h2{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 13px;
+    width: 150px;
+    border-top: 1px solid lightgray;
+    padding-top: 10px;
+}
+.cont p{
+    font-size: 11px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.btn button{
+    font-size: 12px;
+    color: white;
+    background-color: #7BBAC1;
+    border: none;
+    padding: 7px;
+}
+.list img{
+    transition: all 1s;
+    width: 100%;
+    cursor: pointer;
+}
+.list img:nth-child(2){
+    display: none;
+    position: absolute;
+    height: 0;
+    visibility: hidden; 
+    opacity: 0;
+    transition: all 0.2s;
+}
+.list:hover img:first-child{
+    position: absolute;
+    height: 0;
+    visibility: hidden; 
+    opacity: 0;
+    transition: all 1s;
+}
+.list:hover img:nth-child(2){
+    position: relative;
+    height: 100%;
+    transition: all 1s;
+    display: inline-block;
+    visibility:visible;
+    opacity: 1;
+}
+.one img{
+    width: 100%;  
+}
+.one{
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.video{
+    width: 90%;
+    height: 200px;
+    margin: 0 auto;
+}
+footer{
+    border-top: 1px solid gainsboro;
+    padding-top: 10px;
+    padding-bottom:10px
+}
+footer p{
+    font-size: 10px;
+    color: dimgray;
+}
+
+@media screen and (min-width: 400px) and (max-width: 600px){
+
+    body{
+        position: relative;
+    }
+    header{
+        width: 100%;
+        margin: 0 auto;
+        position: sticky;
+        top: 0;
+        height: 82px;
+        background-color: white;
+        z-index: 999;
+        border-bottom: 1px solid lightgray;
+    }
+    .ham{
+        display: block;
+        width: 40px;
+        text-align: center;
+        position: absolute;
+        top: 30px;
+        left: 15px;
+        z-index: 9999;
+    }
+    .logo{
+        width: 200px;
+        margin: 20px auto;
+        text-align: center;
+        position: absolute;
+        top: 0;
+        left: calc(50% - 100px);
+    }
+    nav{
+        position: absolute;
+        width: 100%;
+        top: 82px;
+        bottom: 0;
+        left: -100%;
+        z-index: 998;
+        background-color: rgba(255, 255, 255, 0.884);
+    }
+    .close{
+        display: block;
+        width: 30px;
+        margin: 10px;
+        float: right;
+        cursor: pointer;
+    }
+    .close img{
+        width: 100%;
+        cursor: pointer;
+    }
+    nav > ul{
+        width: 100%;
+        height: 400px;
+        position: sticky;
+        top: 82px;
+        left: 20px;
+    }
+    nav>ul>li{
+        width: 30%;
+        margin-right: 40%;
+        text-align: left;
+    }
+    nav>ul>li>a{
+        font-weight: 900;
+        color: rgb(34, 34, 34);
+        font-size: 20px;
+        padding: 20px;
+        text-align: left;
+        border-bottom: none;
+        font-family: 'Libre Baskerville' , sans-serif;
+    }
+    nav>ul>li>a:hover{
+        border-bottom: none;
+    }
+    nav>ul>li:hover .sublist_a{
+        transition: all 1s ;
+        visibility: visible;
+    }
+    nav>ul>li:hover .sublist{
+        transition: all 1s ;
+        opacity: 1;
+        visibility: visible;
+    }
+    .sublist_a{
+        width: 40%;
+        visibility: hidden;
+        position: absolute;
+        transition: all 1s ;
+        position: absolute;
+        left: 140px;
+        top: 0px;
+    }
+    .sublist{
+        width: 50%;
+        visibility: hidden;
+        position: absolute;
+        transition: all 1s ;
+        position: absolute;
+        left: 140px;
+        top: 255px;
+    }
+  
+    .sublist_a li{
+        width: 100%;
+        height: auto;
+        display: block;
+        float: left;
+    }
+    .sublist li{
+        width: 100%;
+        height: auto;
+        display: block;
+        float: left;
+    }
+    .sublist_a a{
+        font-size: 20px;
+        font-family: 'Libre Baskerville' , sans-serif;
+        font-weight: 700;
+        display: block;
+        padding: 20px;
+        margin: 0;
+        text-align: left;
+    }
+    .sublist a{
+        font-size: 20px;
+        font-family: 'Libre Baskerville' , sans-serif;
+        font-weight: 700;
+        display: block;
+        padding: 20px;
+        margin: 0;
+        text-align: left;
+    }
+    .sublist a:hover{
+        color: #D67B69;
+    }
+    .sublist_a a:hover{
+        color: #D67B69;
+    }
+    footer {
+        margin-top: 50px;
+        width: 100%;
+        position: relative;
+        background-color: #1F1F1F;
+    }
+    .footer_top{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .footer_top ul{
+        width: 99%;
+        margin: 0 auto;
+    }
+    .footer_top ul li{
+        width: 25%;
+        float: left;
+        height: 45px;
+        border-bottom: 1px solid lightgray;
+    }
+    .footer_top ul li a{
+        font-weight: 400;
+        font-size: 12px;
+        display: block;
+        margin: 10px;
+        text-align: center;
+        color: white;
+    }
+    .footer_middle{
+        width: 90%;
+        margin: 20px auto;
+    }
+    .footer_middle p{
+        text-align: center;
+    }
+    .footer_bottom{
+        width: 90%;
+        margin: 20px auto;
+    }
+    .footer_bottom p{
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px){
+    .list{
+        width: 30.9%;
+        float: left;
+        margin: 1%;
+    }
+    nav{
+        width: 100%;
+    }
+    nav > ul{
+        width: 80%;
+        height: 40px;
+        margin: 0 auto;
+    }
+    nav ul li{
+        width: 20%;
+        float: left;
+        text-align: center;
+    }
+    nav>ul>li>a{
+        font-weight: 900;
+        color: rgb(34, 34, 34);
+        font-size: 14px;
+        display: block;
+        padding: 10px;
+        text-align: center;
+        border-bottom: 1px solid lightgray;
+        font-family: 'Libre Baskerville' , sans-serif;
+    }
+    nav>ul>li>a:hover{
+        border-bottom: 1px solid #D67B69;
+    }
+    .sublist{
+        width: 16%;
+        opacity: 0;
+        position: absolute;
+        transition: all 1s ;
+    }
+    .sublist_a{
+        width: 16%;
+        opacity: 0;
+        position: absolute;
+        transition: all 1s ;
+    }
+    nav li:hover .sublist{
+        transition: all 1s ;
+        opacity: 1;
+    }
+    nav li:hover .sublist_a{
+        transition: all 1s ;
+        opacity: 1;
+    }
+    .sublist li{
+        width: 100%;
+        height: 30px;
+        display: block;
+        float: left; 
+    }
+    .sublist_a li{
+        width: 100%;
+        height: 30px;
+        display: block;
+        float: left; 
+    }
+    .sublist a{
+        font-size: 10px;
+        font-family: 'Libre Baskerville' , sans-serif;
+        font-weight: 700;
+    }
+    .sublist_a a{
+        font-size: 10px;
+        font-family: 'Libre Baskerville' , sans-serif;
+        font-weight: 700;
+    }
+    .sublist a:hover{
+        color: #D67B69;
+    }
+    .sublist_a a:hover{
+        color: #D67B69;
+    }
+    .bottom{
+        margin-top: 10px;
+    }
+    .wrap{
+        width: 80%;
+    }
+    .video{
+        width: 80%;
+        height: 300px;
+        margin: 0 auto;
+    }
+    .cont h2{
+        margin: 0 auto;
+        text-align: center;
+        font-size: 14px;
+        width: 120px;
+        border-top: 1px solid lightgray;
+        padding-top: 10px;
+    }
+    .cont p{
+        font-size: 12px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    footer {
+        margin-top: 50px;
+        width: 100%;
+        position: relative;
+        background-color: #1F1F1F;
+    }
+    .footer_top{
+        width: 90%;
+        margin: 0 auto;
+        height: 45px;
+        border-bottom: 1px solid lightgray;
+    }
+    .footer_top ul{
+        width: 99%;
+        margin: 0 auto;
+    }
+
+    .footer_top ul li{
+        width: 25%;
+        float: left;
+    }
+    .footer_top ul li a{
+        font-weight: 400;
+        font-size: 12px;
+        display: block;
+        margin: 10px;
+        text-align: center;
+        color: lightgray;
+    }
+    .footer_middle{
+        width: 90%;
+        margin: 20px auto;
+    }
+    .footer_middle p{
+        text-align: center;
+        font-size: 10px;
+    }
+    .footer_bottom{
+        width: 90%;
+        margin: 20px auto;
+    }
+    .footer_bottom p{
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .list{
+        width:22.7%;
+        float: left;
+        margin: 1%;
+    }   
+    nav{
+        width: 100%;
+    }
+    nav > ul{
+        width: 80%;
+        height: 40px;
+        margin: 0 auto;
+    }
+    nav ul li{
+        width: 20%;
+        float: left;
+        text-align: center;
+    }
+    nav>ul>li>a{
+        font-weight: 900;
+        color: rgb(34, 34, 34);
+        font-size: 14px;
+        display: block;
+        padding: 10px;
+        text-align: center;
+        border-bottom: 1px solid lightgray;
+        font-family: 'Libre Baskerville' , sans-serif;
+    }
+    nav>ul>li>a:hover{
+        border-bottom: 1px solid #D67B69;
+    }
+    nav li:hover .sublist{
+        transition: all 1s ;
+        opacity: 1;
+    }
+    .sublist{
+        width: 16%;
+        opacity: 0;
+        position: absolute;
+        transition: all 1s ;
+    }
+    .sublist li{
+        width: 100%;
+        height: 40px;
+        display: block;
+        float: left;
+    }
+    .sublist a{
+        font-size: 14px;
+        font-family: 'Libre Baskerville' , sans-serif;
+        font-weight: 700;
+    }
+    .sublist a:hover{
+        color: #D67B69;
+    }
+    .video{
+        width: 60%;
+        height: 400px;
+        margin: 0 auto;
+    } 
+    .na{
+        margin: 0 auto;
+        width: 200px;
+        height: 50px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .nb{
+        margin: 0 auto;
+        width: 200px;
+        height: 50px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        border-bottom: 2.5px solid rgb(34, 34, 34);
+    }
+    .na p{
+        font-family: 'Libre Baskerville' , sans-serif;
+        font-size: 23px;
+        font-weight: 700;
+        color: rgb(34, 34, 34);
+        text-align: center;
+    }
+    .nb p{
+        font-family: 'Libre Baskerville' , sans-serif;
+        font-size: 23px;
+        font-weight: 700;
+        color: rgb(34, 34, 34);
+        text-align: center;
+    }
+    .bottom{
+        margin-top: 10px;
+    }
+    .one{
+        background-size: 100%;
+        background-repeat: no-repeat;
+        text-align: center;
+        position: relative;
+    }
+    .one img{
+        
+        width: 100%;
+    }
+    .wrap{
+        width: 80%;
+    }
+    .cont h2{
+        margin: 0 auto;
+        text-align: center;
+        font-size: 16px;
+        width: 150px;
+        border-top: 1px solid lightgray;
+        padding-top: 10px;
+    }
+    .cont p{
+        font-size: 13px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    nav ul li a{
+        font-weight: 700;
+        color: rgb(31, 31, 31);
+        font-size: 18px;
+        display: block;
+        padding: 20px;
+        text-align: center;
+        font-family: 'Libre Baskerville' , sans-serif;
+    }
+    footer {
+        margin-top: 50px;
+        width: 100%;
+        position: relative;
+        background-color: #1F1F1F;
+    }
+    .footer_top{
+        width: 90%;
+        margin: 0 auto;
+        height: 45px;
+        border-bottom: 1px solid lightgray;
+    }
+    .footer_top ul{
+        width: 99%;
+        margin: 0 auto;
+    }
+    .footer_top ul li{
+        width: 25%;
+        float: left;
+    }
+    .footer_top ul li a{
+        font-weight: 400;
+        font-size: 12px;
+        display: block;
+        margin: 10px;
+        text-align: center;
+        color: lightgray;
+    }
+    .footer_middle{
+        width: 90%;
+        margin: 20px auto;
+    }
+    .footer_middle p{
+        text-align: left;
+        font-size: 11px;
+    }
+    .footer_bottom{
+        width: 90%;
+        margin: 20px auto;
+    }
+    .footer_bottom p{
+        text-align: left;
+    }
+}

@@ -1,0 +1,316 @@
+* {
+margin: 0;
+padding: 0;
+list-style: none;
+text-decoration: none;
+font-family: 'Noto Sans KR', sans-serif;
+color: #3A3B40;
+font-size: 12px;
+}
+
+.wrap {
+width: 960px;
+margin: 0 auto;
+}
+
+.clear {
+clear: both;
+}
+
+header {
+width: 100%;
+}
+
+.logo {
+width: 100%;
+margin: 0px auto;
+height: 100vh;
+background-image: url(../../IMG/OTTOGI/kettle.jpg);
+background-size: 100vw;
+}
+
+.logo img {
+width: 50%;
+}
+
+.back {
+width: 50%;
+height: 100vh;
+float: left;
+}
+
+.logoimg {
+width: 400px;
+position: absolute;
+top: 21%;
+left: calc(50% - 200px);
+margin: 0 auto;
+text-align: center;
+}
+
+.mainmenu .log {
+width: 103px;
+margin: 0 5%;
+float: left;
+height: 110px;
+}
+
+.mainmenu {
+width: 95%;
+height: 100%;
+position: sticky;
+top: 0px;
+z-index: 999;
+padding-right: 5%;
+background-color: white;
+}
+
+.mainmenu>ul {
+width: 100%;
+z-index: 999;
+background-color: white;
+z-index: 999;
+height: 110px;
+}
+
+.mainmenu .ml {
+float: left;
+z-index: 909;
+width: 9%;
+text-align: center;
+padding: 3.5% 1% 2% 1%;
+}
+
+.mainmenu .ml a {
+font-weight: 600;
+font-size: 14px;
+z-index: 999;
+}
+
+.sublist {
+clear: both;
+opacity: 0;
+transition: all 1s;
+width: 95%;
+height: 250px;
+background-color: rgba(255, 255, 255, 0.8);
+z-index: 9;
+padding-right: 5%;
+position: absolute;
+visibility: hidden;
+}
+
+.mainmenu:hover .sublist {
+opacity: 1;
+visibility: visible;
+z-index: 19;
+}
+
+.sublist .log_2 {
+width: 7%;
+margin: 0 5%;
+float: left;
+}
+
+.sublist img {
+width: 7%;
+margin: 0 5%;
+float: left;
+}
+
+.sl:first-child {
+margin-left: 258px;
+}
+
+.sl {
+float: left;
+width: 9%;
+text-align: center;
+padding: 3% 1% 2% 1%;
+margin-bottom: 20px;
+}
+
+.sl li {
+margin-bottom: 10px;
+}
+
+.one {
+width: 100%;
+}
+
+.one .tab {
+padding-top: 100px;
+width: 80%;
+margin: 0 auto;
+height: 600px;
+overflow: hidden;
+}
+
+.skip {
+max-width: 100%;
+max-width: 100%;
+display: block;
+}
+
+.group .box{
+max-width: 100%;
+max-width: 100%;
+position: relative;
+}
+
+.group {
+width: 20%;
+float: left;
+margin-right: calc(7% - 10px);
+position: relative;
+}
+
+.g4 {
+float: right;
+width: 20%;
+position: relative;
+} 
+
+.g4 .box{
+max-width: 100%;
+max-width: 100%;
+position: relative;
+}
+
+.fourth{
+width: 100%;
+height: 100%;
+display: block;
+}
+
+.tab h3 {
+margin-top: 20px;
+float: left;
+font-size: 14px;
+}
+
+.tab p {
+margin-top: 10px;
+float: left;
+text-align: justify;
+font-size: 12px;
+}
+
+.tabImg {
+height: 100%;
+}
+
+.more {
+transition: all 0.5s;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.5);
+position: absolute;
+top: 0;
+text-align: center;
+opacity: 0;
+overflow: hidden;
+}
+
+.more p {
+text-align: center;
+color: white;
+width: 100%;
+margin-top: 150px;
+font-size: 17px;
+}
+
+.group:hover .more {
+opacity: 1;
+cursor: pointer;
+}
+
+.g4:hover .more {
+opacity: 1;
+cursor: pointer;
+}
+
+.three {
+width: 100%;
+height: 600px;
+}
+
+.three h3 {
+text-align: center;
+font-size: 26px;
+padding-top: 50px;
+padding-bottom: 50px;
+background-color: rgba(220, 203, 175, 0.37);
+}
+
+.three .drinks {
+width: 15%;
+float: left;
+margin: 10px;
+margin-top: 100px;
+padding-bottom: 100px;
+}
+
+.three .drinks img {
+width: 100%;
+transition: all 0.7s;
+z-index: 1;
+}
+
+.three .drinks h4 {
+margin-top: 10px;
+text-align: center;
+}
+
+.three .drinks img:hover {
+transform: translateY(-50px);
+background-color: gray;
+}
+
+.two {
+clear: both;
+height: 700px;
+width: 880px;
+margin: 0 auto;
+background-image: url(../../IMG/OTTOGI/teatime.png);
+background-size: 100%;
+background-repeat: no-repeat;
+margin-top: 50px;
+}
+
+.two p {
+float: left;
+font-size: 15px;
+margin-top: 230px;
+margin-left: 420px;
+font-weight: 600;
+}
+
+footer {
+clear: both;
+height: 100%;
+width: 100%;
+margin: 0 auto;
+font-size: 10px;
+}
+
+footer ul {
+height: 50px;
+width: 100%;
+border-top: 1px solid gainsboro;
+border-bottom: 1px solid gainsboro;
+}
+
+footer ul li {
+margin-top: 10px;
+float: left;
+margin: 17px 120px 0 120px;
+}
+
+.foot {
+width: 90%;
+margin: 0 auto;
+margin-top: 20px;
+margin-bottom: 40px;
+font-size: 10px;
+}
