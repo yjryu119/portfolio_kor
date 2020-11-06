@@ -101,7 +101,7 @@ margin: 0 auto;
 background-position: center;
 background-size: 100%;
 background-repeat: no-repeat;
-height: 1700px;
+height: 2500px;
 }
 
 .sectionPortfolio h2{
@@ -125,6 +125,7 @@ margin: 0 auto;
 float: left;
 text-align: center;
 transition: 1s;
+
 }
 
 .thumbnail:hover{
@@ -171,6 +172,7 @@ font-size: 13px;
 color: #202020 ;
 margin: 0 auto;
 margin-top: 80px;
+/* border: 1px solid blue; */
 }
 
 .description_left p{
@@ -180,6 +182,7 @@ font-size: 13px;
 color: #202020 ;
 margin: 0 auto;
 margin-top: 80px;
+/* border: 1px solid red; */
 }
 
 .learnmore{
